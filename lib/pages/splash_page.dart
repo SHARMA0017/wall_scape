@@ -55,23 +55,7 @@ class _SplashPageState extends State<SplashPage> {
                 ),
               ],
             ),
-            SizedBox(height: 25.h),
-            Text(
-              "Developed by :-",
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  letterSpacing: 1,
-                  color: Colors.deepPurpleAccent,
-                  fontSize: 16.sp),
-            ),
-            Text(
-              "Bandhu Sharma",
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  letterSpacing: 1,
-                  color: Colors.white,
-                  fontSize: 24.sp),
-            ),
+          
           ],
         ),
       ),
