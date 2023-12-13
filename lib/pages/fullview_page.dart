@@ -91,7 +91,9 @@ class _FullViewPageState extends State<FullViewPage> {
                       : "Something Went Wrong"),
                   margin: EdgeInsets.only(top: 100.h),
                   titleText: Text(
-                    "wallpaper is set",
+                    wallpaperSet
+                        ? "wallpaper is set"
+                        : "Unable to set wallpaper",
                     style:
                         TextStyle(fontSize: 20.sp, fontWeight: FontWeight.w700),
                   ));
